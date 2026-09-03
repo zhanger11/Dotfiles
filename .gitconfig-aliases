@@ -1,5 +1,9 @@
 # Enable this file with:
 # git config --global --add include.path <path to this file>
 
+[color]
+    ui = auto
+    decorate = auto
+
 [alias]
 	lg = log --graph --abbrev-commit --decorate -10 --pretty=oneline
